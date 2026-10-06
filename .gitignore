@@ -1,0 +1,29 @@
+# Arduino / ESP8266 build artifacts
+*.elf
+*.bin
+*.hex
+*.eep
+*.map
+
+# Arduino IDE temp files
+*.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE config files
+.vscode/
+.idea/
+*.code-workspace
+
+# Secrets / credentials (never commit these!)
+secrets.h
+credentials.h
+config_private.h
